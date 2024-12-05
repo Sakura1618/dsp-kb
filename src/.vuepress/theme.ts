@@ -57,25 +57,25 @@ export default hopeTheme({
 
   // 在这里配置主题提供的插件
   plugins: {
-    notice: {
-      config: [
-        {
-          path: '/',
-          fullscreen: true,
-          showOnce: false,
-          title: '公告',
-          content: '知识库正在搭建中...<br>群：746596008<br>出现 BUG 请在群内反馈<br>参与开发、编写内容请联系群主',
-          actions: [
-            {
-              text: '加入群聊',
-              link: 'https://qm.qq.com/q/C7bnpa3NbG',
-              type: 'primary',
-            },
-            { text: '我知道了' },
-          ],
-        },
-      ],
-    },
+    // notice: {
+    //   config: [
+    //     {
+    //       path: '/',
+    //       fullscreen: true,
+    //       showOnce: false,
+    //       title: '公告',
+    //       content: '知识库正在搭建中...<br>群：746596008<br>出现 BUG 请在群内反馈<br>参与开发、编写内容请联系群主',
+    //       actions: [
+    //         {
+    //           text: '加入群聊',
+    //           link: 'https://qm.qq.com/q/C7bnpa3NbG',
+    //           type: 'primary',
+    //         },
+    //         { text: '我知道了' },
+    //       ],
+    //     },
+    //   ],
+    // },
     markdownHint: {
       // 启用 GFM 警告
       alert: true,
