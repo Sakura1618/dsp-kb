@@ -19,6 +19,8 @@ export default hopeTheme({
 
   logo: "/logo.svg",
 
+  favicon: "/logo.svg",
+
   repo: "Sakura1618/dsp-kb",
 
   docsDir: "src",
