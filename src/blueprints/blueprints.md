@@ -81,7 +81,10 @@ title: 蓝图
 ### 戴森球蓝图推荐：
 [戴森球蓝图仓库 (用于储存与分享来自社区的戴森球蓝图)](https://github.com/DSPBluePrints/DysonSphereBluePrints)
 
-- 光子球推荐：[最短框架 450 节点 + 框架 + 32 壳面](https://github.com/DSPBluePrints/DysonSphereBluePrints/tree/main/%E5%AE%9E%E7%94%A8%E5%90%91%E6%88%B4%E6%A3%AE%E7%90%83%20Practical%20Dyson%20Sphere/(%E7%9B%AE%E5%89%8D%E6%9C%80%E7%A8%80)%E6%9C%80%E7%9F%AD%E6%A1%86%E6%9E%B6%E6%88%B4%E6%A3%AE%E7%90%83%20(Currently%20the%20rarest)%20shortest%20frame%20Dyson%20ball)  
+- 光子球推荐：
+
+[ 60 节点 + 框架 + 壳面](https://github.com/DSPBluePrints/DysonSphereBluePrints/blob/main/%E5%AE%9E%E7%94%A8%E5%90%91%E6%88%B4%E6%A3%AE%E7%90%83%20Practical%20Dyson%20Sphere/(%E7%9B%AE%E5%89%8D%E6%9C%80%E7%A8%80)%E6%9C%80%E7%9F%AD%E6%A1%86%E6%9E%B6%E6%88%B4%E6%A3%AE%E7%90%83%20(Currently%20the%20rarest)%20shortest%20frame%20Dyson%20ball/60%E8%8A%82%E7%82%B9%2B%E6%A1%86%E6%9E%B6%2B%E5%A3%B3%E9%9D%A2%2060%20nodes%20%2B%20frame%20%2B%20shell.txt)  
+[最短框架 450 节点 + 框架 + 32 壳面](https://github.com/DSPBluePrints/DysonSphereBluePrints/tree/main/%E5%AE%9E%E7%94%A8%E5%90%91%E6%88%B4%E6%A3%AE%E7%90%83%20Practical%20Dyson%20Sphere/(%E7%9B%AE%E5%89%8D%E6%9C%80%E7%A8%80)%E6%9C%80%E7%9F%AD%E6%A1%86%E6%9E%B6%E6%88%B4%E6%A3%AE%E7%90%83%20(Currently%20the%20rarest)%20shortest%20frame%20Dyson%20ball)  
 冲榜球：仙 116 系列 (老仙 116、新仙 116、新仙 116Lite、新仙 116Plus)
 
 ## 放到最后
