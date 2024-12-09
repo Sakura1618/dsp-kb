@@ -22,12 +22,12 @@ description:
 1. 打开游戏根目录：  
 戴森球计划 - 管理 - 浏览本地文件
 
-![Steam 玩家可以参考操作](/assets/image/save1.png)
+![Steam 玩家可以参考操作](/assets/image/save1.webp)
 
 2. 进入 Configs 文件夹，新建 path.txt 文件，填写想要修改的存放路径。  
 此处填写`F:\`，即代表修改数据存放位置为 F 盘根目录，如图所示：
 
-![修改示例](/assets/image/save2.png)
+![修改示例](/assets/image/save2.webp)
 
 戴森球计划数据结构说明：
 ```

@@ -16,7 +16,7 @@ title: MOD
 
 [点我跳转官网](https://thunderstore.io/c/dyson-sphere-program/p/ebkr/r2modman/) 跳转官网后点击 <mark>Manual Download</mark> 即可下载
 
-![如图所示](/assets/image/mod1.png)
+![如图所示](/assets/image/mod1.webp)
 
 安装：根据提示安装即可。
 
@@ -27,19 +27,19 @@ title: MOD
 ```
 Dyson Sphere Program
 ```
-![如图所示](/assets/image/mod2.png)
+![如图所示](/assets/image/mod2.webp)
 
 3. 等待加载完成，默认只有一个 Default 配置，可以直接进入也可以创建新配置。(不支持中文命名)
 
-![选项释义](/assets/image/mod3.png)
+![选项释义](/assets/image/mod3.webp)
 
 4. 界面介绍
 
-![界面介绍](/assets/image/mod4.png)
+![界面介绍](/assets/image/mod4.webp)
 
 5. 点击左侧的 Online 按钮，可以浏览和下载 MOD，点击 Download 按钮后 如果不需要指定 MOD 版本，可以直接点 Download with dependencies 进行下载 (会自动安装依赖 MOD)。
 
-![如何浏览和安装 MOD](/assets/image/mod5.png)
+![如何浏览和安装 MOD](/assets/image/mod5.webp)
 
 6. 安装完模组后，回到 Installed 页面，点击 MOD 右侧的按钮即可启用或禁用 MOD。
 
@@ -47,7 +47,7 @@ Dyson Sphere Program
 
     Uninstall 可以卸载 MOD，Disable 可以禁用 MOD (与按钮功能一样)
 
-![启用、禁用、更新 MOD](/assets/image/mod6.png)
+![启用、禁用、更新 MOD](/assets/image/mod6.webp)
 
 7. 下载安装好模组后，点击 Start modded 按钮启动游戏。 
 
