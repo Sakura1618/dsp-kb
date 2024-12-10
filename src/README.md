@@ -334,4 +334,7 @@ actions:
 #         link: https://theme-hope.vuejs.press/zh/guide/advanced/pwa.html
 
 ---
-![浏览次数](https://profile-counter.glitch.me/Sakura1618/count.svg) 
+
+[<div style="text-align: center;">"源于玩家智慧，致力于玩家体验，一切始于玩家，一切服务玩家。"</div>](/guide/)
+
+![知识库使用次数](https://profile-counter.glitch.me/Sakura1618/count.svg)

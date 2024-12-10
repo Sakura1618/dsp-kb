@@ -2,7 +2,7 @@
 title: 蓝图仓库 | DSPBluePrints
 ---
 ## 戴森球计划蓝图仓库 | DSPBluePrints
-[跳转 Github 组织](https://github.com/DSPBluePrints)
+[跳转 Github](https://github.com/DSPBluePrints)
 
 | 仓库 | 内容 | 跳转链接 |
 | :--- | :-: | :-: |
