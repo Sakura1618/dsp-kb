@@ -54,36 +54,50 @@ export default hopeTheme({
 
   // 如果想要实时查看任何改变，启用它。注：这对更新性能有很大负面影响
   // hotReload: true,
-
+  markdown:{
+    alert: true,
+    align: true,
+    attrs: true,
+    breaks: true,
+    component: true,
+    codeTabs: true,
+    demo: true,
+    echarts: true,
+    figure: true,
+    flowchart: true,
+    footnote: true,
+    gfm: true,
+    include: true,
+    mark: true,
+    obsidianImgSize: true,
+    plantuml: true,
+    spoiler: true,
+    imgLazyload: true,
+    imgSize: true,
+    tabs: true,
+    sub: true,
+    sup: true,
+    tasklist: true,
+    vPre: true,
+    stylize: [
+      {
+        matcher: "Recommended",
+        replacer: ({ tag }) => {
+          if (tag === "em")
+            return {
+              tag: "Badge",
+              attrs: { type: "tip" },
+              content: "Recommended",
+            };
+        },
+      },
+    ],
+    revealjs: {
+      plugins: ["highlight", "math", "search", "notes", "zoom"],
+    },
+  },
   // 在这里配置主题提供的插件
   plugins: {
-    // notice: {
-    //   config: [
-    //     {
-    //       path: '/',
-    //       fullscreen: true,
-    //       showOnce: false,
-    //       title: '公告',
-    //       content: '知识库正在搭建中...<br>群：746596008<br>出现 BUG 请在群内反馈<br>参与开发、编写内容请联系群主',
-    //       actions: [
-    //         {
-    //           text: '加入群聊',
-    //           link: 'https://qm.qq.com/q/C7bnpa3NbG',
-    //           type: 'primary',
-    //         },
-    //         { text: '我知道了' },
-    //       ],
-    //     },
-    //   ],
-    // },
-    markdownHint: {
-      // 启用 GFM 警告
-      alert: true,
-    },
-    searchPro: {
-      indexContent: true,
-      autoSuggestions: true,
-    },
     comment: {
       provider: "Giscus",
       repo: "Sakura1618/dsp-kb-giscus",
@@ -109,78 +123,27 @@ export default hopeTheme({
       ],
     },
 
-    // 此处开启了很多功能用于演示，你应仅保留用到的功能。
-    markdownImage: {
-      figure: true,
-      lazyload: true,
-      size: true,
-    },
+    slimsearch: true,
 
-    // markdownMath: {
-    //   // 启用前安装 katex
-    //   type: "katex",
-    //   // 或者安装 mathjax-full
-    //   type: "mathjax",
+    // notice: {
+    //   config: [
+    //     {
+    //       path: '/',
+    //       fullscreen: true,
+    //       showOnce: false,
+    //       title: '公告',
+    //       content: '知识库正在搭建中...<br>群：746596008<br>出现 BUG 请在群内反馈<br>参与开发、编写内容请联系群主',
+    //       actions: [
+    //         {
+    //           text: '加入群聊',
+    //           link: 'https://qm.qq.com/q/C7bnpa3NbG',
+    //           type: 'primary',
+    //         },
+    //         { text: '我知道了' },
+    //       ],
+    //     },
+    //   ],
     // },
-
-    // 此功能被开启用于演示，你应仅当使用时保留。
-    markdownTab: true,
-
-    // 此处开启了很多功能用于演示，你应仅保留用到的功能。
-    mdEnhance: {
-      align: true,
-      attrs: true,
-      component: true,
-      demo: true,
-      include: true,
-      mark: true,
-      plantuml: true,
-      spoiler: true,
-      stylize: [
-        {
-          matcher: "Recommended",
-          replacer: ({ tag }) => {
-            if (tag === "em")
-              return {
-                tag: "Badge",
-                attrs: { type: "tip" },
-                content: "Recommended",
-              };
-          },
-        },
-      ],
-      sub: true,
-      sup: true,
-      tasklist: true,
-      vPre: true,
-
-      // 在启用之前安装 chart.js
-      // chart: true,
-
-      // insert component easily
-
-      // 在启用之前安装 echarts
-      // echarts: true,
-
-      // 在启用之前安装 flowchart.ts
-      // flowchart: true,
-
-      // gfm requires mathjax-full to provide tex support
-      // gfm: true,
-
-      // 在启用之前安装 mermaid
-      // mermaid: true,
-
-      // playground: {
-      //   presets: ["ts", "vue"],
-      // },
-
-      // 在启用之前安装 @vue/repl
-      // vuePlayground: true,
-
-      // install sandpack-vue3 before enabling it
-      // sandpack: true,
-    },
 
     // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释
     // pwa: {
@@ -238,10 +201,5 @@ export default hopeTheme({
     //     ],
     //   },
     // },
-
-    // 如果你需要幻灯片，安装 @vuepress/plugin-revealjs 并取消下方注释
-    revealjs: {
-      plugins: ["highlight", "math", "search", "notes", "zoom"],
-    },
   },
 });

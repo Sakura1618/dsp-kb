@@ -42,6 +42,11 @@ pnpm install
 pnpm run docs:dev
 ```
 
+(推荐) 清除缓存并启动开发服务器：
+```
+pnpm docs:clean-dev
+```
+
 此时可在浏览器中访问 `http://localhost:8080/` 进行热开发。
 
 ### 推荐的编辑器和插件
