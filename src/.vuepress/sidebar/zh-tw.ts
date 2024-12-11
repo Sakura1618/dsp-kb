@@ -1,7 +1,7 @@
 import { sidebar } from "vuepress-theme-hope";
 
-export default sidebar({
-  "/": [
+export const zhtwSidebar = sidebar({
+  "/zh-TW/": [
     "",
     {
       text: "指南",
@@ -10,7 +10,7 @@ export default sidebar({
       children: "structure",
     },
     {
-      text: "知识库",
+      text: "知識庫",
       icon: "tdesign:data-base",
       prefix: "knowledge-base/",
       children: "structure",
@@ -22,7 +22,7 @@ export default sidebar({
       children: "structure",
     },
     {
-      text: "种子与蓝图",
+      text: "種子與藍圖",
       icon: "ph:blueprint",
       prefix: "blueprints/",
       children: "structure",
@@ -34,7 +34,7 @@ export default sidebar({
       children: "structure",
     },
     {
-      text: "鸣谢",
+      text: "鳴謝",
       icon: "material-symbols:account-circle-outline",
       prefix: "thanks/",
       children: "structure",

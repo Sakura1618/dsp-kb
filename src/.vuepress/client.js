@@ -1,4 +1,3 @@
-// .vuepress/client.js
 import { defineClientConfig } from 'vuepress/client';
 import { setupTransparentNavbar } from 'vuepress-theme-hope/presets/transparentNavbar.js';
 import { setupRunningTimeFooter } from "vuepress-theme-hope/presets/footerRunningTime.js";

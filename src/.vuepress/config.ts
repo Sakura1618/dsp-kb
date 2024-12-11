@@ -14,6 +14,14 @@ export default defineUserConfig({
       level: [2, 3, 4, 5, 6],
     },
   },
+  locales: {
+    "/": {
+      lang: "zh-CN",
+    },
+    "/zh-TW/": {
+      lang: "zh-TW",
+    },
+  },
 
   theme,
 

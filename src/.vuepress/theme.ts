@@ -1,7 +1,7 @@
 import { hopeTheme } from "vuepress-theme-hope";
 
-import navbar from "./navbar.js";
-import sidebar from "./sidebar.js";
+import { zhcnNavbar, zhtwNavbar } from "./navbar/index.js";
+import { zhcnSidebar, zhtwSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
   hostname: "https://dsp-kb.top",
@@ -27,33 +27,14 @@ export default hopeTheme({
 
   headerDepth: 6,
 
-  // 导航栏
-  navbar,
-
-  // 侧边栏
-  sidebar,
-
-  // 页脚
   footer: "请遵循 <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank'>CC BY-NC-SA 4.0</a>",
   displayFooter: true,
 
-  //版权信息
-  copyright: "Copyright © 2024-至今 DSP-KB. All rights reserved",
-
-  // 加密配置
-  encrypt: {
-    config: {
-      "/demo/encrypt.html": ["1234"],
-    },
-  },
-
-  // 多语言配置
-  metaLocales: {
-    editLink: "在 GitHub 上编辑此页",
-  },
+  copyright: "Copyright © 2024-2024 DSP-KB. All rights reserved",
 
   // 如果想要实时查看任何改变，启用它。注：这对更新性能有很大负面影响
   // hotReload: true,
+
   markdown:{
     alert: true,
     align: true,
@@ -96,7 +77,23 @@ export default hopeTheme({
       plugins: ["highlight", "math", "search", "notes", "zoom"],
     },
   },
-  // 在这里配置主题提供的插件
+  locales: {
+    "/": {
+      navbar: zhcnNavbar,
+      sidebar: zhcnSidebar,
+      metaLocales: {
+        editLink: "在 Github 上编辑此页面",
+      },
+    },
+    "/zh-TW/": {
+      navbar: zhtwNavbar,
+      sidebar: zhtwSidebar,
+      metaLocales: {
+        editLink: "在 Github 上編輯此頁面",
+      },
+    },
+  },
+
   plugins: {
     comment: {
       provider: "Giscus",
