@@ -26,7 +26,7 @@ actions:
 
   - text: 种子与蓝图
     icon: ph:blueprint
-    link: ./blueprint/
+    link: ./blueprints/
 
   - text: MOD
     icon: icon-park-outline:add-mode
