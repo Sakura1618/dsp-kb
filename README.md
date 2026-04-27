@@ -1,8 +1,8 @@
 # 戴森球计划知识库 | DSP-KB
 
-## 该项目已弃用，停止维护，内容已迁移至 [DSP-Code4/dsp-kb](https://github.com/DSP-Code4/dsp-kb)，新的网站正在搭建中
-## 该项目已弃用，停止维护，内容已迁移至 [DSP-Code4/dsp-kb](https://github.com/DSP-Code4/dsp-kb)，新的网站正在搭建中
-## 该项目已弃用，停止维护，内容已迁移至 [DSP-Code4/dsp-kb](https://github.com/DSP-Code4/dsp-kb)，新的网站正在搭建中
+## 该项目已弃用，内容已迁移至 [DSP-Code4/dsp-kb](https://github.com/DSP-Code4/dsp-kb)，新的网站正在搭建中
+## 该项目已弃用，内容已迁移至 [DSP-Code4/dsp-kb](https://github.com/DSP-Code4/dsp-kb)，新的网站正在搭建中
+## 该项目已弃用，内容已迁移至 [DSP-Code4/dsp-kb](https://github.com/DSP-Code4/dsp-kb)，新的网站正在搭建中
 
 ## 知识共享许可协议
 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
